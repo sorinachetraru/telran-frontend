@@ -7,6 +7,17 @@
     <title>Document</title>
 
     <style>
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+      .container {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px; ;
+
+      }
         * {
             margin: 0;
             padding: 0;
@@ -16,6 +27,7 @@
         background-color: black;
         text-align: center;
         color: white;
+        font-family: Roboto;
       }
       a {
         border: 1px solid white;
@@ -24,21 +36,20 @@
         text-decoration: none;
         color: white;
       }
-      p {
-        margin-bottom: 40px;
-      }
+   
       div {
         background-color: hsl(347.68deg 100% 62.75%);
         aspect-ratio: 2 / 3;
         width: 400px;
-        padding-top: 30%;
+        padding: 40px;
       }
     </style>
   </head>
   <body>
-    <div>
+
+    <div class = "container">
       <h1>Hello, Friend!</h1>
-      <p>Enter your personal details and start jorney with us</p>
+      <p>Enter your personal details and start journey with us</p>
       <a href="">SIGN UP </a> 
     </div>
   </body>
